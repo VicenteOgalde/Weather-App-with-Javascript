@@ -6,7 +6,7 @@ const options = {
 	}
 };
 
-const getWeatherData = (city) => {
+const getWeatherData = async (city) => {
   const URL = "https://ai-weather-by-meteosource.p.rapidapi.com/daily";
    const okURL= `${URL}?place_id=${city}&language=en&units=auto`;
 
